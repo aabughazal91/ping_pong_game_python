@@ -78,10 +78,10 @@ def racket2_down():
         
 # keyboard binding 
 wind.listen()  # Listen for keyboard events
-wind.onkeypress(racket1_up, "w")  # Bind the 'w' key to move madrab1 up
-wind.onkeypress(racket1_down, "s")  # Bind the 'w' key to move madrab1 up
-wind.onkeypress(racket2_up, "Up")  # Bind the 'w' key to move madrab1 up
-wind.onkeypress(racket2_down, "Down")  # Bind the 'w' key to move madrab1 up
+wind.onkeypress(racket1_up, "w")  # Bind the 'w' key to move racket1 up
+wind.onkeypress(racket1_down, "s")  # Bind the 'w' key to move racket1 up
+wind.onkeypress(racket2_up, "Up")  # Bind the 'w' key to move racket2 up
+wind.onkeypress(racket2_down, "Down")  # Bind the 'w' key to move racket2 up
 
 while True:
     wind.update()  # Update the screen continuously
